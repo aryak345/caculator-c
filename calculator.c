@@ -22,6 +22,8 @@ int main() {
             else
                 printf("Cannot divide by zero.\n");
             break;
+        case '^': printf("Result: %.2lf\n", pow(a, b)); break;
+
         default: printf("Invalid operator\n");
     }
 
